@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0"> 
+
+<category>
+<pattern>HOLA ALICE</pattern>
+<template>
+HOLA USUARIO
+</template>
+</category>
+<category>
+<pattern>NOMBRE</pattern>
+<template>
+GABY
+</template>
+</category>
+<category>
+<pattern>CUR</pattern>
+<template>
+SI
+</template>
+</category>
+ <category>
+      <pattern>Hi</pattern>
+      <template>
+        Hi there. My name is Lovita. What can I help you with today?.
+      </template>
+   </category>
+ <category>
+      <pattern>Hello</pattern>
+      <template>
+        Hi there. My name is Lovita. What can I help you with today?.
+      </template>
+   </category>
+ <category>
+      <pattern>Hi Lovita</pattern>
+      <template>
+        Hi there. My name is Lovita. What can I help you with today?.
+      </template>
+   </category>
+
+ <category>
+      <pattern>derivative of sin</pattern>
+      <template>
+         cos(x)
+      </template>
+   </category>
+
+ <category>
+      <pattern>derivative of sin(x)</pattern>
+      <template>
+         cos(x)
+      </template>
+   </category>
+
+ <category>
+      <pattern>derivate sin(x)</pattern>
+      <template>cos(x)</template>
+   </category>
+   
+ <category>
+      <pattern>derivative of cos(x)</pattern>
+      <template>
+         -sin(x)
+      </template>
+   </category>
+  
+ <category>
+      <pattern>derivative of cos </pattern>
+      <template>
+         -sin(x)
+      </template>
+   </category>  
+   
+ <category>
+      <pattern>derivate cos(x) </pattern>
+      <template>
+         -sin(x)
+      </template>
+   </category>
+
+ <category>
+      <pattern>derivative of cos(x)</pattern>
+      <template>
+        -sin(x)
+      </template>
+   </category>
+
+ <category>
+      <pattern>derivative of tan(x)</pattern>
+      <template>
+         sec^2(x)
+   </template>
+   </category>  
+ <category>
+      <pattern>derivate tan(x)</pattern>
+      <template>
+         sec^2(x)
+      </template>
+   </category>  
+ <category>
+      <pattern>derivative of tan</pattern>
+      <template>
+         sec^2(x)
+      </template>
+   </category>  
+
+ <category>
+      <pattern>derivative of tan(x)</pattern>
+      <template>
+         sec^2(x)
+      </template>
+   </category>  
+
+ <category>
+      <pattern>derivative of tan(x)</pattern>
+      <template>
+         sec^2(x)
+      </template>
+   </category> 
+
+ <category>
+      <pattern>formula of the chain rule</pattern>
+      <template>
+         F'(x)=f'(g(x))*g'(x)
+      </template>
+   </category>
+
+ <category>
+      <pattern>derivative of arctan</pattern>
+      <template>
+         F'(X)=f'(g(x))*g'(x)
+      </template>
+   </category>
+ <category>
+      <pattern>derivative of e^x</pattern>
+      <template>
+         e^x
+      </template>
+   </category>
+
+ <category>
+      <pattern>derivative of ln(x)</pattern>
+      <template>
+         1/x
+      </template>
+   </category>
+
+ <category>
+      <pattern>derivative of cot(x)</pattern>
+      <template>
+         -csc^2(x)
+      </template>
+   </category>
+
+ <category>
+      <pattern>derivative of sec(x)</pattern>
+      <template>
+         sec(x)tan(x)
+      </template>
+   </category>
+
+ <category>
+      <pattern>derivative of csc(x)</pattern>
+      <template>
+         -csc(x)cot(x)
+      </template>
+   </category>
+
+ <category>
+      <pattern>derivative of arcsin(x)</pattern>
+      <template>
+         1/1-x^2
+      </template>
+   </category>
+
+ <category>
+      <pattern>chain rule</pattern>
+      <template>
+         F'(x)=f'(g(x)))*g'(x)
+      </template>
+   </category>
+ <category>
+      <pattern>product rule</pattern>
+      <template>
+        f(x)*g'(x)+f'(x)*g(x)
+      </template>
+   </category>
+ <category>
+      <pattern>quotient rule</pattern>
+      <template>
+         F'(x)=g(x)*f'(x)-f(x)*g'(x)/(g(x))^2
+      </template>
+   </category>
+ <category>
+      <pattern>power rule</pattern>
+      <template>
+         x^n=n*x^n-1
+      </template>
+   </category>
+ <category>
+      <pattern>power rule example</pattern>
+      <template>
+         3x^4=12x^3
+      </template>
+   </category>
+ <category>
+      <pattern>product rule example</pattern>
+      <template>
+         f(x)=(3-x^2)(x+4)
+         f(x)'=(3-x^2)*1+(x+4)*-2x
+         f(x)'=-3x^2-8x+3
+      </template>
+   </category>   
+ <category>
+      <pattern>quotient rule example</pattern>
+      <template>
+         f(x)=4x-2/x^2+1
+         f(x)'=(x^2+1)*4+(4x-2)*2x
+         f(x)'=-4x^2+4x+4/(x^2+1)^2
+      </template>
+   </category>   
+ <category>
+      <pattern>quadratic formula</pattern>
+      <template>
+         x=-b±√b^2-4ac/2a
+      </template>
+   </category>   
+ <category>
+      <pattern>reciprocals</pattern>
+      <template>
+         n/x=x^-n
+      </template>
+   </category>  
+ <category>
+      <pattern>roots</pattern>
+      <template>
+         √x=x^1/2
+      </template>
+   </category>   
+<category>
+      <pattern>completing the square</pattern>
+      <template>
+         x^2+bx  
+         x^2+bx+(b/2)^2
+         (x+b/2)^2
+      </template>
+   </category>   
+<category>
+      <pattern>products of powers</pattern>
+      <template>
+         a^m*a^n=a^m+n
+      </template>
+   </category>   
+<category>
+      <pattern>power of a powers</pattern>
+      <template>
+         (a^m)n=a^m*n
+      </template>
+   </category>
+<category>
+      <pattern>power of a product</pattern>
+      <template>
+         (ab)^m=a^m*b^m
+      </template>
+   </category>    
+<category>
+      <pattern>factor by GCF</pattern>
+      <template>
+         2yx^2-8xy-24y
+         =2y(x^2-4x-12)
+      </template>
+   </category>   
+<category>
+      <pattern>difference of 2 squares</pattern>
+      <template>
+         x^2-9
+         x^2-3^2
+         =(x+3)(x-3)
+      </template>
+   </category>  
+<category>
+      <pattern>difference of two squares</pattern>
+      <template>
+         x^2-9
+         x^2-3^2
+         =(x+3)(x-3)
+      </template>
+   </category>  
+<category>
+      <pattern>perfect square trinomial</pattern>
+      <template>
+         x^2-10x+25
+         (x-5)^2
+      </template>
+   </category>  
+ </aiml>

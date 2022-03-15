@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0"> 
+
+ <category>
+      <pattern>Hi</pattern>
+      <template>
+        Hi there. My name is Lovita. What can I help you with today?.
+      </template>
+   </category>
+ <category>
+      <pattern>Hello</pattern>
+      <template>
+        Hi there. My name is Lovita. What can I help you with today?.
+      </template>
+   </category>
+ <category>
+      <pattern>Hi Lovita</pattern>
+      <template>
+        Hi there. My name is Lovita. What can I help you with today?.
+      </template>
+   </category>
+
+ <category>
+      <pattern>derivative of sin</pattern>
+      <template>
+         cos(x)
+      </template>
+   </category>
+
+ <category>
+      <pattern>derivative of sin(x)</pattern>
+      <template>
+         cos(x)
+      </template>
+   </category>
+
+ <category>
+      <pattern>derivate sin(x)</pattern>
+      <template>cos(x)</template>
+   </category>
+   
+ <category>
+      <pattern>derivative of cos(x)</pattern>
+      <template>
+         -sin(x)
+      </template>
+   </category>
+  
+ <category>
+      <pattern>derivative of cos </pattern>
+      <template>
+         -sin(x)
+      </template>
+   </category>  
+   
+ <category>
+      <pattern>derivate cos(x) </pattern>
+      <template>
+         -sin(x)
+      </template>
+   </category>
+
+ <category>
+      <pattern>derivative of cos(x)</pattern>
+      <template>
+        -sin(x)
+      </template>
+   </category>
+
+ <category>
+      <pattern>derivative of tan(x)</pattern>
+      <template>
+         sec^2(x)
+   </template>
+   </category>  
+ <category>
+      <pattern>derivate tan(x)</pattern>
+      <template>
+         sec^2(x)
+      </template>
+   </category>  
+ <category>
+      <pattern>derivative of tan</pattern>
+      <template>
+         sec^2(x)
+      </template>
+   </category>  
+
+ <category>
+      <pattern>derivative of tan(x)</pattern>
+      <template>
+         sec^2(x)
+      </template>
+   </category>  
+
+ <category>
+      <pattern>derivative of tan(x)</pattern>
+      <template>
+         sec^2(x)
+      </template>
+   </category> 
+
+ <category>
+      <pattern>formula of the chain rule</pattern>
+      <template>
+         F'(X)=f'(g(x))*g'(x)
+      </template>
+   </category>
+
+ <category>
+      <pattern>derivative of arcsin</pattern>
+      <template>
+         1/√1-x^2
+      </template>
+   </category>
+ <category>
+      <pattern>derivative of arccos</pattern>
+      <template>
+         -1/√1-x^2
+      </template>
+   </category>
+
+ <category>
+      <pattern>derivative of arccot</pattern>
+      <template>
+         -1/1+x^2
+      </template>
+   </category>
+ <category>
+      <pattern>derivative of arcsec</pattern>
+      <template>
+         1/x√x^2-1
+      </template>
+   </category>
+ <category>
+      <pattern>derivative of arccsc</pattern>
+      <template>
+         -1/x√x^2-1
+      </template>
+   </category>
+ </aiml>

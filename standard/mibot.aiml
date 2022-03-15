@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+  <!-- DEFAULT -->
+  
+  <category>
+      <pattern>*</pattern>
+      <template>
+        <random>
+              <li>I don't understand what you are saying.</li>
+              <li>Could you rephrase it please.</li> 
+              <li>Let me take a look again.</li>
+              <li>Please repeat it.</li>
+          </random>
+          <random>
+              <li>Could you say <star/> differently</li>
+              <li>It's interesting, but I could not understand.</li>
+              <li>I do not understand what you mean with <star/></li>
+              <li>Could you explain what you mean with <star/>?</li>
+          </random>
+      </template>
+  </category>
+  
+<category>
+      <pattern>*</pattern>
+      <that>*?</that>
+      <template><random>
+      <li>OK,let's try again.</li>
+      </random></template>
+  </category>
+
+
+
+</aiml>

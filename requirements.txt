@@ -1,0 +1,6 @@
+gevent-websocket
+werkzeug
+flask
+tinydb
+aiml
+clock
